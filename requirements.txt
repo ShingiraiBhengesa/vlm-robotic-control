@@ -1,6 +1,25 @@
-opencv-python
-numpy
-pyserial
-openai
-python-dotenv
-pyyaml
+# Core dependencies
+opencv-python>=4.8.0
+numpy>=1.24.0
+pyserial>=3.5
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# Enhanced VLM and Vision dependencies
+torch>=2.0.0
+transformers>=4.30.0
+pillow>=9.5.0
+scikit-learn>=1.3.0
+
+# Stereolabs ZED-M depth camera (Linux)
+pyzed>=4.0.0
+
+# Optional: Better object detection (can be installed separately)
+# ultralytics>=8.0.0  # For YOLO object detection
+
+# Development and debugging
+matplotlib>=3.7.0  # For visualization
+tqdm>=4.65.0       # Progress bars
+
+# OpenAI API (optional, for alternative VLMs)
+openai>=1.0.0
